@@ -1,0 +1,214 @@
+@charset "utf-8";
+/* CSS Document */
+
+button {
+    outline: none;
+    cursor: pointer;
+  transition: b background-color 0.15s ease-out, color 0.15s ease-out, border-color 0.15s ease-out;
+}
+
+
+
+
+@font-face {
+  font-family: myFirstFont;
+  src:url("../font/VNARIAL.TTF");}
+ul{list-style: none}
+ul li{float: left;padding: 25px}
+ul li a{text-decoration: none;color: white}
+ul li:hover{background-color: aqua}
+.Container
+{height: 3097px;
+width: 1100px;
+background-color: aqua;
+font-family: myFirstFont;
+margin: 0 auto;
+color: white;
+}
+
+
+		.top
+		{height: 620px;
+		width: 1100px;
+		background-image: url("../images/top_01.png");}
+			.logoandmenu
+			{width: 1100px;
+			height: 77px;
+			}
+					.logo
+					{width: 530px;
+					height: 67px;
+					
+					float: left;
+					font-size: 18pt;
+					padding: 10px 0px 0px 20px;
+					color:  white}
+					.menu
+					{width: 550px;
+					height: 77px;
+					font-size: 11pt;
+					color: white;
+					float: right;}
+
+			.pictureandtext
+			{width: 1100px;
+			height: 544px;
+			position: relative}
+					.Text1
+					{width: 1100px;
+					height: 130px;
+					font-size: 40pt;
+					color: white;
+					position: absolute;
+					top: 90px;
+					animation: slideInDown 2s 
+					}
+					.Text2
+					{width: 1100px;
+					height: 50px;
+					color: white;
+					font-size: 10pt;
+					position: absolute;
+					top: 230px;
+					animation: fadeInLeft 2s}
+					.Text3
+					{width: 1100px;
+					height: 60px;
+					position: absolute;
+					top: 285px;}
+						/*nut button*/
+						.btn_white {
+						width: 130px;
+						height: 40px;
+						transition-duration: 0.3s;
+						background: none;
+						border: 2px #FFFFFF solid;
+						color: #FFFFFF;
+						font-size: 16px;
+						font-weight: 500;}
+						.btn_white:hover{background-color:#E38B8D;color: black}
+						.btn_blue {
+						width: 150px;
+						height: 40px;
+						background:none;
+						border:2PX #2F2F2F solid;
+						color:#000000;
+						font-size: 16px;
+						font-weight: 500;}
+						.btn_blue:hover{background-color:#E38B8D;color: black}
+		.mid
+		{height: 618px;
+		width: 1100px;
+		background-color: #f1f1f1;
+		position: relative;
+		color: black;}
+			.picture
+			{width: 600px;
+			height: 400px;
+			background-image: url("../images/Untitled-1_03.png");
+			position: absolute;
+			top: 130px;}
+			.text
+			{width: 440px;
+			height: 300px;
+			float: right;
+			margin-top: 200px;
+			margin-right: 30px;}
+			.text1
+			{width: 440px;
+			height: 100px;
+			font-size: 33pt;}
+			.text2
+			{width: 440px;
+			height: 65px;
+			margin-top: 15px;
+			font-size: 10pt;}
+			.text3
+			{width: 440px;
+			height: 50px;
+			margin-top: 15px}
+
+		.bot
+		{height: 622px;
+		width: 1100px;
+		background-image:url("../images/1_03.png");
+		position: relative;
+		color: white;}
+			.phone
+			{width: 270px;
+			height: 440px;
+			;
+			position: absolute;
+			top: 120px; left: 650px;}
+			.intro
+			{width: 500px;
+			height: 270px;
+			color: white;
+			position: absolute;
+			top:220px;left: 120px}
+		.mid2
+		{height: 618px;
+		width: 1100px;
+		background-color: #323c6d;
+		position: relative;
+		color: white;}
+			.feed{width: 340px;
+			height: 135px;
+			position: absolute;top:220px;left: 150px;font-size: 25pt;}
+			.feed1{width: 180px;
+			height: 135px;
+			position: absolute;top:220px;left: 520px;font-size: 10pt;}
+			.feed2{width: 180px;
+			height: 135px;
+			position: absolute;top:220px;left: 750px;font-size: 10pt;}
+			.icon{width: 715px;
+			height: 110px;
+			background-image: url("../4_03.jpg");
+			position: absolute;top: 400px;left: 140px;}
+
+
+		.mid3
+		{height: 619px;
+		width: 1101px;
+		background-image: url("../images/6_03.png");
+		position: relative;
+		color: white;}
+			.title1
+			{width: 400px;
+			height: 300px;
+			
+			position: absolute;top:185px;left: 110px;}
+			.title2
+			{width: 400px;
+			height: 300px;
+			;
+			position: absolute;top:185px;left: 570px;}
+			.titletext
+			{width: 390px;
+			height: 50px;
+			
+			padding: 20px 0px 0px 10px;
+			margin-top: 20px}
+.haha
+{width: 120px;
+height: 35px;
+font-size: 12pt;
+color: white;float: left;
+margin-left: 10px;position: relative}						
+.haha input{width:100px;
+	height: 15px;
+	background: none;
+	border-bottom-color: white;
+	border-width: 0 0 2px 0;}
+
+.hihi{width: 370px;
+height: 35px;
+
+position: absolute;top: 120px;font-size: 12pt;}
+
+.hihi input{width:370px;
+	height: 15px;
+	background: none;
+	border-bottom-color: white;
+	border-width: 0 0 2px 0;}
+
